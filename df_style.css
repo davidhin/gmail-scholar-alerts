@@ -1,0 +1,36 @@
+/* includes alternating gray and white with on-hover color */
+
+.mystyle {
+  font-size: 11pt;
+  font-family: Arial;
+  border-collapse: collapse;
+  border: 1px solid silver;
+}
+
+.mystyle td,
+th {
+  padding: 7px;
+}
+
+.mystyle tr:nth-child(even) {
+  background: #e0e0e0;
+}
+
+.mystyle tr:hover {
+  background: silver;
+  cursor: pointer;
+}
+
+.container {
+  /* background-color: #2e4272; */
+  display: flex;
+}
+.fixed {
+  /* background-color: #4f628e; */
+  width: 1000px;
+  padding-right: 50px;
+}
+.flex-item {
+  /* background-color: #7887ab; */
+  flex-grow: 1;
+}
